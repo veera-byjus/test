@@ -3,7 +3,6 @@
 #Author: Ravi
 
 kind: pipeline
-type: kubernetes
 name: default
 
 steps:
@@ -27,4 +26,4 @@ steps:
     region:
       from_secret: aws_region
     tags:
-        - '1.0.1_drone'
+        - 'latest'
